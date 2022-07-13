@@ -28,9 +28,10 @@ def set_global_vars():
         global_vars['region_name']              = "us-east-1"
         global_vars['tag_name']                 = "serverless-thumbnails-creator"
         global_vars['sizes']                    = {
-            'cover': [ 250, 250],
+            'cover': [ 1000, 1000],
             'profile': [ 200, 200 ],
-            'thumbnail': [ 1000, 1000 ]
+            'thumbnail': [ 1000, 1000 ],
+            'data': [2000, 2000]
         }
         global_vars['status']                   = True
     except Exception as e:
